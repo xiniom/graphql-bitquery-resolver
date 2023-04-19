@@ -1,0 +1,20 @@
+{
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "name": "graphql-bitquery-resolver",
+    "dependencies": {
+      "@apollo/client": "^3.7.12",
+      "@apollo/datasource-rest": "^5.0.2",
+      "@apollo/server": "^4.6.0",
+      "dotenv": "^16.0.3",
+      "graphql": "^16.6.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    },
+    "type": "module"
+  }
+  
