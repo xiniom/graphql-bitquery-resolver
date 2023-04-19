@@ -1,0 +1,1 @@
+This is a simple GraphQL server that uses bitquery as a resolver
