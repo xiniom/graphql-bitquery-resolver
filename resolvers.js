@@ -1,5 +1,7 @@
 export const resolvers = {
     Query: {
-        result: () => 'asdfgh'
+        result: (_, __, {dataSources}) => {
+            return dataSources.bitqueryAPI.getExampleData();
+        }
     }
 };
